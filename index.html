@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Html Form</title>
 </head>
 
@@ -23,8 +24,76 @@
                     </legend>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <div class="alert alert-danger" role="alert">
+                        Some fields are mising
+                    </div>
+                    <form class="row g-3" action="" form-inline>
+                        <div class="col-md-5">
+                            <label for="inputEmail" class="form-label">Card#</label>
+                            <input id="emailAddress" type="email" size="64" maxlength="64" required placeholder=""
+                                pattern=".+@beststartupever\.com" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputpassword" class="form-label">CVC #</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputEmail" class="form-label">Amount</label>
+                            <input id="emailAddress" type="email" size="50" maxlength="64" required placeholder="">
+                        </div>
+                    </form>
+                    <form class="row g-2" action="inline">
+                        <div class="col-6">
+
+                            <label for="name" class="form-label">First name</label>
+                            <input id="name" type="name" size="64" maxlength="64" required placeholder=""
+                                class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <label for="Lastname">Lastname</label>
+                            <input id="Lastname" type="name" size="64" maxlength="64" required placeholder=""
+                                class="form-control">
+                        </div>
+
+                    </form>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="city" class="form-label">City</label>
+                            <input id="city" type="email" size="50" maxlength="64" required placeholder=""
+                                class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="inpuPostal" class="form-label">Postal Code</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+
+                    </form>
+
+                    <form class="row g-2">
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="exampleFormControlTextarea1" class="form-label"><strong>Message</strong></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
         </div>
     </div>
+
 
 </body>
 
