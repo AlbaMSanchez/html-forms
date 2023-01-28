@@ -24,12 +24,12 @@
                     </legend>
                 </div>
             </div>
-            <div class="row">
+            <div class="row p-2">
                 <div class="col">
                     <div class="alert alert-danger" role="alert">
                         Some fields are mising
                     </div>
-                    <form class="row g-3" action="" form-inline>
+                    <form class="row g-3 p-2" action="" form-inline>
                         <div class="col-md-5">
                             <label for="inputEmail" class="form-label">Card#</label>
                             <input id="emailAddress" type="email" size="64" maxlength="64" required placeholder=""
@@ -78,20 +78,37 @@
 
                     </form>
 
-                    <form class="row g-2">
-                        <div class="col-md-6">
-
+                    <form class="row container-footer p-2">
+                        <div class="container-pay">
+                            <span><strong> We accept:</strong></span>
+                            <div class="cuadrado col-md-6 bg-secondary p-1">
+                                <input type="radio" name="hm" value="h"><i class="fa-brands fa-cc-mastercard"></i>
+                                <input type="radio" name="hm" value="h"><i class="fa-brands fa-cc-visa"></i>
+                                <input type="radio" name="hm" value="h"> <i class="fa-solid fa-wallet"></i>
+                                <input type="radio" name="hm" value="h"><i class="fa-brands fa-paypal"></i>
+                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 float-right">
                             <label for="exampleFormControlTextarea1" class="form-label"><strong>Message</strong></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <small class="text-muted">Add any notes here.</small>
 
                         </div>
                     </form>
+                    <div class=" container-button bg-light ">
+                        <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
+                        <button type="button" class="btn btn-primary btn-sm">Send</button>
+
+                    </div>
+
+
                 </div>
 
+                </form>
             </div>
+
         </div>
+    </div>
     </div>
 
 

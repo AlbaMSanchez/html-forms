@@ -1,0 +1,29 @@
+.cuadrado {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    height: 2rem;
+    gap: 1rem
+}
+
+
+
+.container-pay {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-button {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 0.5rem;
+}
