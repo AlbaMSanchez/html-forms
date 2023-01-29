@@ -24,35 +24,38 @@
                     </legend>
                 </div>
             </div>
-            <div class="row p-2">
+            <div class="row pt-2">
                 <div class="col">
                     <div class="alert alert-danger" role="alert">
                         Some fields are mising
                     </div>
                     <form class="row g-3 p-2" action="" form-inline>
                         <div class="col-md-5">
-                            <label for="inputEmail" class="form-label">Card#</label>
-                            <input id="emailAddress" type="email" size="64" maxlength="64" required placeholder=""
-                                pattern=".+@beststartupever\.com" />
+                            <label for="inputEmail" class="form-label"><strong>Card#</strong></label>
+                            <input id="name" type="name" size="64" maxlength="64" required
+                                placeholder="XXXXXXXXXXXXXXXXX" class="form-control">
                         </div>
                         <div class="col-md-3">
-                            <label for="inputpassword" class="form-label">CVC #</label>
-                            <input type="password" class="form-control">
+                            <label for="inputpassword" class="form-label"><strong>CVC #</strong></label>
+                            <input type="" class="form-control" placeholder="0000">
                         </div>
+
                         <div class="col-md-4">
-                            <label for="inputEmail" class="form-label">Amount</label>
-                            <input id="emailAddress" type="email" size="50" maxlength="64" required placeholder="">
+
+                            <label for="inputEmail" class="form-label"><strong>Amount</strong></label>
+                            <input type="" class="form-control" placeholder="Amount">
+
                         </div>
                     </form>
                     <form class="row g-2" action="inline">
                         <div class="col-6">
 
-                            <label for="name" class="form-label">First name</label>
+                            <label for="name" class="form-label"><strong>First name</strong></label>
                             <input id="name" type="name" size="64" maxlength="64" required placeholder=""
                                 class="form-control">
                         </div>
                         <div class="col-6">
-                            <label for="Lastname">Lastname</label>
+                            <label for="Lastname"><strong>Lastname</strong></label>
                             <input id="Lastname" type="name" size="64" maxlength="64" required placeholder=""
                                 class="form-control">
                         </div>
@@ -60,19 +63,19 @@
                     </form>
                     <form class="row g-3">
                         <div class="col-md-6">
-                            <label for="city" class="form-label">City</label>
+                            <label for="city" class="form-label"><strong>City</strong></label>
                             <input id="city" type="email" size="50" maxlength="64" required placeholder=""
                                 class="form-control">
                         </div>
                         <div class="col-md-3">
-                            <label for="inputState" class="form-label">State</label>
+                            <label for="inputState" class="form-label"><strong>State</strong></label>
                             <select id="inputState" class="form-select">
                                 <option selected>Choose...</option>
                                 <option>...</option>
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <label for="inpuPostal" class="form-label">Postal Code</label>
+                            <label for="inpuPostal" class="form-label"><strong>Postal Code</strong></label>
                             <input type="text" class="form-control" id="inputZip">
                         </div>
 
@@ -95,10 +98,12 @@
 
                         </div>
                     </form>
-                    <div class=" container-button bg-light ">
-                        <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
-                        <button type="button" class="btn btn-primary btn-sm">Send</button>
+                    <div class="row border-bottom bg-light">
+                        <div class=" container-button ">
+                            <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
+                            <button type="button" class="btn btn-primary btn-sm">Send</button>
 
+                        </div>
                     </div>
 
 
