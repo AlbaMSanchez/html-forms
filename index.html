@@ -39,29 +39,30 @@
                             <label for="inputpassword" class="form-label"><strong>CVC #</strong></label>
                             <input type="" class="form-control" placeholder="0000">
                         </div>
-
                         <div class="col-md-4">
-
-                            <label for="inputEmail" class="form-label"><strong>Amount</strong></label>
-                            <input type="" class="form-control" placeholder="Amount">
+                            <label for="inputEmail4" class="form-label fs-6 fw-semibold"> Amount</label>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Amount">
+                            </div>
 
                         </div>
                     </form>
-                    <form class="row g-2" action="inline">
+                    <form class="row g-2">
                         <div class="col-6">
 
                             <label for="name" class="form-label"><strong>First name</strong></label>
-                            <input id="name" type="name" size="64" maxlength="64" required placeholder=""
+                            <input id="name" type="name" size="63" maxlength="64" required placeholder=""
                                 class="form-control">
                         </div>
                         <div class="col-6">
-                            <label for="Lastname"><strong>Lastname</strong></label>
-                            <input id="Lastname" type="name" size="64" maxlength="64" required placeholder=""
-                                class="form-control">
+                            <label for="Lastname"><strong class="mt-4">Lastname</strong></label>
+                            <input id="Lastname" type="name" size="63" maxlength="64" required placeholder=""
+                                class="form-control mt-2">
                         </div>
 
                     </form>
-                    <form class="row g-3">
+                    <form class="row g-3 mt-2">
                         <div class="col-md-6">
                             <label for="city" class="form-label"><strong>City</strong></label>
                             <input id="city" type="email" size="50" maxlength="64" required placeholder=""
@@ -81,11 +82,12 @@
 
                     </form>
 
-                    <form class="row container-footer p-2">
+                    <form class="row container-footer p-2 mt-2">
                         <div class="container-pay">
                             <span><strong> We accept:</strong></span>
                             <div class="cuadrado col-md-6 bg-secondary p-1">
-                                <input type="radio" name="hm" value="h"><i class="fa-brands fa-cc-mastercard"></i>
+                                <input type="radio" name="hm" value="h" checked><i
+                                    class="fa-brands fa-cc-mastercard me-0"></i>
                                 <input type="radio" name="hm" value="h"><i class="fa-brands fa-cc-visa"></i>
                                 <input type="radio" name="hm" value="h"> <i class="fa-solid fa-wallet"></i>
                                 <input type="radio" name="hm" value="h"><i class="fa-brands fa-paypal"></i>
@@ -98,10 +100,10 @@
 
                         </div>
                     </form>
-                    <div class="row border-bottom bg-light">
-                        <div class=" container-button ">
-                            <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
-                            <button type="button" class="btn btn-primary btn-sm">Send</button>
+                    <div class="row border-bottom bg-light mt-3">
+                        <div class=" container-button">
+                            <button type="button" class="btn btn-secondary btn-sm mt-4 mb-2">Cancel</button>
+                            <button type="button" class="btn btn-primary btn-sm mt-4 mb-2">Send</button>
 
                         </div>
                     </div>
